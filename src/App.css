@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.Title {
+  font-size: 40px;
+  text-align: center;
+  color: green;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 700;
+}
