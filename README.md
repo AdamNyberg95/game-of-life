@@ -8,14 +8,14 @@ The app is live at: https://game-of-life-nine-liart.vercel.app/
 
 After downloadning the project you need to run the command `npm install` in the terminal. Then you can use the following command:
 
-### `npm start`
+#### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.
 
-### Info
+## Info
 
 **components**
 
