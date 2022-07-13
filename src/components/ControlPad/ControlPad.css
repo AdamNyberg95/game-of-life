@@ -10,11 +10,12 @@
 .button {
   height: 30px;
   width: 60px;
-  border: solid 3px black;
-  border-radius: 20%;
+  border: solid 2px black;
+  border-radius: 10px;
   transition: all 0.3 ease;
 }
 
 button:hover {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transform: scale(1.05);
 }

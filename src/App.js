@@ -5,7 +5,7 @@ import "./App.css";
 const App = () => {
   return (
     <div>
-      <h1 className="Title">Game Of Life </h1>
+      <h1 className="title">Game Of Life </h1>
       <Grid />
     </div>
   );

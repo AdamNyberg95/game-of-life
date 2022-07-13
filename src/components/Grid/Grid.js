@@ -41,7 +41,7 @@ const Grid = () => {
     for (let i = 0; i < numRows; i++) {
       rows[i] = [];
       for (let j = 0; j < numCols; j++) {
-        rows[i][j] = Math.random() > 0.5 ? 1 : 0;
+        rows[i][j] = Math.random() > 0.7 ? 1 : 0;
       }
     }
 
@@ -107,7 +107,6 @@ const Grid = () => {
         {grid.map((rows, i) =>
           rows.map((col, k) => (
             <div
-              className=""
               key={`${i}-${k}`}
               onClick={() => {
                 addLivingBox(i, k);
